@@ -22,7 +22,7 @@ let game = setInterval(function(){
     // console.log(blockLeft);
    if (blockLeft<30 && blockLeft>0 && charTop >=200 ){
        block.style.animation="none"
-       alert("hit")
+       alert("Game-Over")
    }
 
 },10)
